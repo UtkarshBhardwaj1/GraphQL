@@ -38,7 +38,7 @@ This is a basic project that demonstrates how to set up and use **GraphQL** with
 
 2. **Install dependencies: Run the following Maven command to download all the required dependencies**:
 
-
+ ```bash
   mvn clean install
   Run the application: Start the Spring Boot application by executing:
 
