@@ -38,13 +38,11 @@ This is a basic project that demonstrates how to set up and use **GraphQL** with
 
 2. **Install dependencies: Run the following Maven command to download all the required dependencies**:
 
-```bash
+
   mvn clean install
   Run the application: Start the Spring Boot application by executing:
-  
-```bash
+
   mvn spring-boot:run
   Access the GraphQL endpoint: The default GraphQL endpoint will be available at:
 
-```bash
   http://localhost:8080/graphql
