@@ -1,0 +1,18 @@
+# schema.graphqls
+
+type Book {
+    id: Long
+    title: String
+    author: String
+}
+
+type Query {
+    books: [Book]
+    book(id: Long): Book
+}
+
+type Mutation {
+    createBook(title: String, author: String): Book
+    updateBook(id: Long, title: String, author: String): Book
+    deleteBook(id: Long): Boolean
+}
